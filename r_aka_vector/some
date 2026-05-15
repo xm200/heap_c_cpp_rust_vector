@@ -1,0 +1,9 @@
+   Compiling r_aka_vector v0.1.0 (/Users/infer0/Desktop/infosec/programming/c/heap_c_cpp_rust_vector/r_aka_vector)
+error[E0599]: no method named `cast` found for unit type `()` in the current scope
+  --> src/main.rs:42:46
+   |
+42 |         let ptr = match NonNull::new(raw_ptr.cast::<T>()) {
+   |                                              ^^^^ method not found in `()`
+
+For more information about this error, try `rustc --explain E0599`.
+error: could not compile `r_aka_vector` (bin "r_aka_vector") due to 1 previous error
