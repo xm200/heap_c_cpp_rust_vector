@@ -1,0 +1,4 @@
+./r_aka_vector/target
+./r_aka_vector/target/*
+./r_aka_vector/Cargo.lock
+
